@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity" android:id="@+id/layoutPrincipal">
+
+    <TextView
+            android:text="Mi Aplicacion de Negocios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView2" android:gravity="center"
+            android:textSize="24sp" android:textStyle="bold"/>
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120dp" app:srcCompat="@drawable/icon_user" android:id="@+id/imageView2"/>
+    <TextView
+            android:text="Boton Seleccionado:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textViewinfo" android:gravity="center"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textbnt" android:gravity="center"
+            android:text="ninguno"/>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" android:gravity="center" android:id="@+id/layoutContent">
+
+
+        <Button
+                android:text="SERVICIOS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/bntServicios" android:gravity="center"
+                android:background="@android:color/holo_blue_dark" android:textColor="@android:color/background_light"
+                android:layout_margin="4dp"/>
+        <Button
+                android:text="PORTAFOLIO"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/bntPortafolio"
+                android:background="@android:color/holo_blue_dark" android:textColor="@android:color/background_light"
+                android:layout_margin="4dp"/>
+        <Button
+                android:text="ACERCA DE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/bntAcerca"
+                android:background="@android:color/holo_blue_dark" android:textColor="@android:color/background_light"
+                android:layout_margin="4dp"/>
+        <Button
+                android:text="CONTACTO"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/bntContacto"
+                android:background="@android:color/holo_blue_dark" android:textColor="@android:color/background_light"
+                android:layout_margin="4dp"/>
+        <Button
+                android:text="REDES SOCIALES"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/bntRedes"
+                android:background="@android:color/holo_blue_dark" android:textColor="@android:color/background_light"
+                android:layout_margin="4dp"/>
+    </LinearLayout>
+
+</LinearLayout>
